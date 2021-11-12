@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    color: #121212;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #F1F4FF;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2.5rem 0;
+    position: relative;
+}
+.header__navbar ul{
+    list-style: none;
+    display: flex;
+    column-gap: 2.5rem;
+    font-weight: 700;
+}
+.btn{
+    padding: .7rem 2.2rem;
+    color: #efefef;
+    background-color: #121212;
+    text-decoration: none;
+    border: 2px solid #1D1D1D;
+
+}
+
+/* hero */
+
+    /* positioning */
+    /* Box-model */
+    /* Typo */
+    /* visual */
+
+.hero__wrapper{
+    /* positioning */
+    position: relative;
+
+    /* Box-model */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 2.5rem 0;
+
+}
+.hero__wrapper > *{
+    /* Box-model */
+    flex: 1;
+}
+.text__content{
+    /* positioning */
+    position: relative;
+    z-index: 95;
+
+    /* visual */
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.0001) 4.13%, rgba(255, 255, 255, 0.5) 80.29%);
+    box-shadow: 0px 70px 40px rgba(74, 85, 188, 0.137074);
+    backdrop-filter: blur(19.028px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 20px;
+    padding: 3.5rem 2rem;
+    overflow: visible;
+}
+.left{
+    position: relative;
+}
+.circle1{
+    /* positioning */
+    position: absolute;
+    
+
+    /* Box-model */
+    width: 129px;
+    height: 129px;
+
+    /* visual */
+    background: #FF9890;
+    filter: blur(54.3656px);
+}
+
+.circle2{
+    /* positioning */
+    position: absolute;
+    right: 2.5rem;
+    top: -2rem;
+
+    /* Box-model */
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    
+    /* visual */
+    background: #FF9890;
+}
+.circle3{
+    /* positioning */
+    position: absolute;
+    bottom: -1.2rem;
+    right: 40%;
+
+    /* Box-model */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+    /* visual */
+    background: linear-gradient(322.37deg, #000000 21.81%, #D8D8D8 144.42%);
+}
+.text__content h1{
+    /* box-model */
+    margin-bottom: 1.625rem;
+    /* typo */
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+.text__content h1 span{
+    /* typo */
+    font-weight: 700;
+}
+.text__content p{
+    /* typo */
+    line-height: 2.3rem;
+    font-size: 18px;
+    opacity: .8;
+}
+.left::after{
+    content: url(images/random\ lines.svg);
+    position: absolute;
+    right: -5.5rem;
+    bottom: 1rem;
+    z-index: 99;
+}
+
+.right img{
+    position: relative;
+    max-width: 588.96px;
+    max-height: 564.04px;
+}
+
+/* hero */
