@@ -53,11 +53,11 @@ even thou the desktop version work great on firefox and chrome, it still needs a
 
 ## Author
 
-- Github - [Add your name here](https://github.com/Silkiercomet)
+- Github - [Luis Colina](https://github.com/Silkiercomet)
 
 
 ## Acknowledgments
 
-shout out to NickelfoxStudio - [](https://mobile.twitter.com/NickelfoxStudio) for giving this awesome templates to the commnity 
+shout out to  [NickelfoxStudio](https://mobile.twitter.com/NickelfoxStudio) for giving this awesome templates to the commnity 
 
 
