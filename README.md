@@ -22,7 +22,7 @@ This one is my first time using the design tool Figma, to create the layout of a
 
 ### Screenshot
 
-![](./Screenshot.jpg)
+![](./Screenshot.png)
 
 
 ### Links
